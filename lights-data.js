@@ -14,4 +14,4 @@ export const lights = [
         type: 'led',
         color: '2700K',
     },
-]
+];
