@@ -1,17 +1,17 @@
 export const lights = [
     {
         location: 'office',
-        type: 'led',
+        type: 'LED',
         color: '3200K',
     },
     {
         location: 'bedroom',
-        type: 'filament',
+        type: 'Filament',
         color: '2000K',
     },
     {
         location: 'kitchen',
-        type: 'led',
+        type: 'LED',
         color: '2700K',
     },
 ];
