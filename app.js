@@ -1,6 +1,7 @@
 // import functions and grab DOM elements
 import { mySongs } from './songs-data.js';
 import { renderSong } from './render-song.js';
+import { lights } from './lights-data.js';
 
 const songList = document.getElementById('song-list');
 
