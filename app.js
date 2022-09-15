@@ -2,6 +2,7 @@
 import { mySongs } from './songs-data.js';
 import { renderSong } from './render-song.js';
 import { lights } from './lights-data.js';
+import { renderLight } from './render-lights.js';
 
 const songList = document.getElementById('song-list');
 
@@ -19,4 +20,12 @@ function displaySongs() {
     }
 }
 
+function displayLights() {
+    for (let light of lights) {
+        let lightEl = renderLight(light);
+        console.log(lightEl);
+    }
+}
+
 displaySongs();
+displayLights();
