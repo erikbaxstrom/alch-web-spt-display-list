@@ -1,6 +1,6 @@
 export const lights = [
     {
-        location: 'office'
+        location: 'office',
         type: 'led',
         color: '3200K',
     },
